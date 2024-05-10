@@ -1,0 +1,4 @@
+reset_state
+table_set_default ipv4_lpm drop
+table_set_default src_mac drop
+table_set_default dst_mac drop
