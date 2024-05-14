@@ -153,7 +153,7 @@ def main(p4info_file_path, bmv2_file_path):
 
         while True:
             sleep(10)
-            print('\n----- Reading tunnel counters -----')
+            print('\n----- Reading counters -----')
             printCounter(p4info_helper, r1, "MyIngress.c", 1)
             printCounter(p4info_helper, r2, "MyIngress.c", 1)
 
