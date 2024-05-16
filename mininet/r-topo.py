@@ -26,14 +26,16 @@ class SimpleRouter(Topo):
                         #json_path = json_path,
                         thrift_port = thrift_port,
                         grpc_port = grpc_port,
-                        device_id = 1)
+                        device_id = 1,
+                        cpu_port = 510)
         r2 = self.addSwitch('r2',
                         cls = P4RuntimeSwitch,
                         sw_path = sw_path,
                         #json_path = json_path,
                         thrift_port = thrift_port+1,
                         grpc_port = grpc_port+1,
-                        device_id = 2)
+                        device_id = 2,
+                        cpu_port = 510)
 
 
          # switchs

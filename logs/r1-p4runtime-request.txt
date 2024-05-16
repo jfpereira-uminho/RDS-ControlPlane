@@ -1,10 +1,10 @@
 
-[2024-05-13 15:26:31.940] /p4.v1.P4Runtime/SetForwardingPipelineConfig
+[2024-05-16 16:51:59.955] /p4.v1.P4Runtime/SetForwardingPipelineConfig
 ---
 Message too long (23966 bytes)! Skipping log...
 ---
 
-[2024-05-13 15:26:31.956] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.973] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -35,7 +35,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.959] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.975] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -66,7 +66,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.963] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.979] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -102,7 +102,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.965] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.981] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -133,7 +133,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.966] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.983] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -169,7 +169,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.968] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.984] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -200,7 +200,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.969] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.985] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -236,7 +236,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.971] /p4.v1.P4Runtime/Write
+[2024-05-16 16:51:59.987] /p4.v1.P4Runtime/Write
 ---
 device_id: 1
 election_id {
@@ -267,7 +267,7 @@ updates {
 }
 ---
 
-[2024-05-13 15:26:31.980] /p4.v1.P4Runtime/Read
+[2024-05-16 16:51:59.997] /p4.v1.P4Runtime/Read
 ---
 device_id: 1
 entities {
@@ -276,20 +276,7 @@ entities {
 }
 ---
 
-[2024-05-13 15:26:41.995] /p4.v1.P4Runtime/Read
----
-device_id: 1
-entities {
-  counter_entry {
-    counter_id: 315478639
-    index {
-      index: 1
-    }
-  }
-}
----
-
-[2024-05-13 15:26:52.011] /p4.v1.P4Runtime/Read
+[2024-05-16 16:52:10.008] /p4.v1.P4Runtime/Read
 ---
 device_id: 1
 entities {

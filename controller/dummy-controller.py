@@ -67,11 +67,11 @@ def writeSrcMac(p4info_helper, sw, port_mac_mapping):
     print("Installed MAC SRC rules on %s" % sw.name)
 
 
-def writeFwdRules(p4info_helper, sw, srcAddr, mask, nextHop, port, dstMac):
+def writeFwdRules(p4info_helper, sw, dstAddr, mask, nextHop, port, dstMac):
     table_entry = p4info_helper.buildTableEntry(
         table_name="MyIngress.ipv4_lpm",
         match_fields={
-            "hdr.ipv4.dstAddr": (srcAddr, mask)
+            "hdr.ipv4.dstAddr": (dstAddr, mask)
         },
         action_name="MyIngress.ipv4_fwd",
         action_params={
